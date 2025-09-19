@@ -1,0 +1,29 @@
+{
+  "name": "https-github.com-gismalolas-nom-du-repo-blob-main-src",
+  "version": "1.0.0",
+  "description": "il s'agit de l'environnement client de mon application web sur le front-end de l'agriculture",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "leaflet", "geoserver", "wms", "agriculture"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "leaflet": "^1.9.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-leaflet": "^5.0.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "vite": "^7.1.6"
+  }
+}
